@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="MathAID - a tool to help you learn mathematics better">
+    <title>MathAID</title>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" class="logo" />
+    </header>
+    <section class="content">
+
+        <section class="math-problem">
+            <div class="problem-details">
+            <div class="problem-number"></div>
+            <div class="problem-title"></div>
+            </div>
+            <div class="problem-solution_step">
+
+            </div>
+        </section>
+
+        <section class="controller">
+            <img src="images/prev.svg" class="prev"/>
+            <img src="images/play.svg" class="play"/>
+            <img src="images/next.svg" class="next"/>
+        </section>
+    </section>
+    <script src="data.js"></script>
+    
+    <script src="js/helper.js"></script>
+    <script src="js/problem.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
